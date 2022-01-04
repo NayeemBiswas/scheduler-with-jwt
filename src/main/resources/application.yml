@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ibcs-bof-erp-api
+    name: auth-api
 server:
   port: 8082
 
@@ -8,9 +8,9 @@ server:
 spring:
  datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://202.161.191.133:4352/sample_login?createIfNotExists=true
-    username: BOF
-    password: boF5423$#%
+    url: jdbc:postgresql://localhost:4352/sample_login?createIfNotExists=true
+    username: 
+    password: 
     #data: classpath:/component-module-submodule.sql,classpath:/role.sql,classpath:/permissions.sql,classpath:/user-role.sql,classpath:/role_permission.sql,classpath:/url-data.sql,classpath:/api-endpoints.sql,classpath:/navigations.sql
     initialization-mode: always
   # JPA properties
